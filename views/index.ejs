@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/base.css">
+        <link rel="stylesheet" href="/css/index.css">
+        <link rel="stylesheet" href="/css/app.css">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <section class="todoapp">
+            <nav class="nav">
+                <ul>
+                    <li>
+                        <form action="/logout" method="post">
+                            <button type="submit" class="logout">Sign out</button>
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+            <header class="header">
+                <h1>
+                    (Execice App)
+                </h1>
+                <form action="/" method="post">
+                    <input type="text" name="title" id="title" class="new-todo" placeholder="What needs to be done?"
+                        autofocus>
+                    <input type="hidden" name="filter" value="">
+                </form>
+            </header>
+            <section class="main">
+                <form>
+                    <input>
+                    <label>Mark all as complete</label>
+                </form>
+                <ul>
+
+                </ul>
+            </section>
+            <footer class="footer">
+                <span></span>
+                <ul class="filters">
+                    <li>
+                        All
+                    </li>
+                    <li>
+                        Active
+                    </li>
+                    <li>
+                        Completed
+                    </li>
+                </ul>
+            </footer>
+        </section>
+    </body>
+
+</html>

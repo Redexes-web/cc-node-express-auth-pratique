@@ -1,0 +1,75 @@
+body {
+    background: rgb(228, 233, 47);
+    background: radial-gradient(circle, rgba(228, 233, 47, 0) 40%, rgba(197, 194, 249, 1) 74%, rgba(0, 212, 255, 1) 100%);
+}
+
+.todohome {
+    margin: 130px 0 40px 0;
+    position: relative;
+}
+
+.todohome h1 {
+    position: absolute;
+    top: -140px;
+    width: 100%;
+    font-size: 80px;
+    font-weight: 200;
+    text-align: center;
+    color: #b83F45;
+    --webkit-text-rendering: optimizeLegibility;
+    --moz-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+}
+
+.todohome h2 {
+    padding-bottom: 48px;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.todohome section {
+    padding-top: 1px;
+    text-align: center;
+}
+
+.todohome .button {
+    padding: 13px 45px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    border-radius: 5px;
+    background: #d83f45;
+}
+
+.todohome a.button {
+    text-decoration: none;
+}
+
+.alert {
+    padding: 40px;
+    background-color: #f44336;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.info {
+    margin: 65px auto 0;
+    color: #4d4d4d;
+    font-size: 11px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    font-weight: 200;
+    text-align: center;
+}
+
+.todohome .button {
+    padding: 13px 45px;
+    font-style: 16px;
+    font-weight: 500;
+    color: white;
+    border-radius: 5px;
+    background: #d83f45;
+}
+
+.todohome a.button {
+    text-decoration: none;
+}
